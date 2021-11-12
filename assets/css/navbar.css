@@ -1,0 +1,24 @@
+.menorca {
+    background-color: #4872ad;
+}
+
+.home {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.home .logotipo-verde {
+    width: 20%;
+}
+
+.home .h3 {
+    margin-top: 2%;
+    width: 100%;
+}
+
+.claim {
+    background: rgba(157, 158, 157, 0.296);
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 15px;
+}

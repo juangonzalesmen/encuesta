@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+.elementor {
+    width: 100%;
+    margin-top: 0px;
+    font-size: 70px;
+    color: #fddae1;
+    font-style: normal;
+    position: relative;
+    text-align-last: center;
+    font-family: 'Great Vibes', cursive;
+}
+
+.elementor-heading {
+    width: 100%;
+    top: -50%;
+    color: black;
+    position: relative;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.div-title {
+    background-color: transparent;
+}
+
+.elementor-type-body {
+    margin-top: -15%;
+    position: relative;
+}
+
+.elementor-hair-body {
+    margin-top: -15%;
+    position: relative;
+}
+
+.result-hair {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.result-result {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.result-product {
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 19px;
+}
+
+.elementor-image-box-img {
+    position: relative;
+    top: -30px;
+    text-align: center;
+}
+
+.lines {
+    color: #fddae1;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+@media (max-width: 750px) {
+    .result-div {
+        flex-direction: column;
+    }
+    .elementor-widget-container {
+        margin-top: 50px;
+    }
+    .elementor {
+        font-size: 3em;
+    }
+    .elementor-heading {
+        font-size: 1em;
+    }
+    h6 {
+        font-size: 1em;
+    }
+    .result-hair {
+        font-size: 0.8em;
+    }
+    .result-product {
+        font-size: 0.8em;
+    }
+    .result-result {
+        font-size: 0.8em;
+    }
+}

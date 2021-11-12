@@ -1,0 +1,208 @@
+* {
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#date {
+    all: unset;
+}
+
+#principal_container {
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(223deg, blue 50%, skyblue 50%);
+}
+
+#domo {
+    border: 2px solid red;
+    padding: 5px;
+    display: block;
+}
+
+.container {
+    height: auto;
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title {
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100px;
+    background: linear-gradient(135deg, blue, green);
+}
+
+h3 {
+    position: relative;
+}
+
+.container h3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100px;
+    background: linear-gradient(135deg, blue, green);
+}
+
+.container form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.input-check {
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    background: skyblue;
+    display: flex;
+}
+
+form .user-details .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+}
+
+form .user-details.one .input-box {
+    margin-bottom: 15px;
+    width: calc(100% - 20px);
+}
+
+form .user-details.three .input-box {
+    margin-bottom: 15px;
+    width: calc(100% / 3 - 20px);
+}
+
+form .user-details.area .input-box {
+    margin-bottom: 15px;
+    width: calc(100% - 20px);
+}
+
+.user-details .input-box .details {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-check input {
+    transform: scale(2);
+    margin-right: 10px;
+}
+
+.user-details .input-box textarea {
+    height: auto;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box select {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+    border-color: green;
+}
+
+.user-details .input-box input:invalid {
+    border-color: #ccc;
+}
+
+form .radio-details .radio-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .radio-details .category {
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-around;
+}
+
+.radio-details .category label {
+    display: flex;
+    align-items: center;
+}
+
+.radio-details .category .dot {
+    height: 18px;
+    width: 18px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#gen-1:checked~.category label .gen-one,
+#gen-2:checked~.category label .gen-two,
+#age-1:checked~.category label .age-one,
+#age-2:checked~.category label .age-two,
+#sty-1:checked~.category label .sty-one,
+#sty-2:checked~.category label .sty-two,
+#cty-1:checked~.category label .cty-one,
+#cty-2:checked~.category label .cty-two {
+    border-color: #ccc;
+    background: #00BFFF;
+}
+
+form input[type="radio"] {
+    display: none;
+}
+
+form .button {
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    background: blue;
+}
