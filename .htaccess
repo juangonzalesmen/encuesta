@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule /sub/directory/index\.php - [L]
+RewriteCond %{REQUEST_URI} !\.(?:css|js|png|jpg|jpeg|svg|xml|xmlns|xlsx)$ [NC]
+RewriteRule ^.*$ index\.php
+</IfModule>
